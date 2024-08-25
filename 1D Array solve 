@@ -1,0 +1,25 @@
+public class SumEvenIndex {
+
+    public static void main(String[] args) {
+        // Example input array
+        int[] arr = {3, 5, 1, 6, 0, 7};
+
+        // Call the function to calculate the sum of elements at even indexes
+        int sum = sumOfEvenIndexes(arr);
+
+        // Print the result
+        System.out.println("Sum of elements at even indexes: " + sum);
+    }
+
+    // Function to calculate the sum of elements at even indexes
+    public static int sumOfEvenIndexes(int[] arr) {
+        int sum = 0;
+
+        // Loop through the array and add elements at even indexes
+        for (int i = 0; i < arr.length; i += 2) {  // Increment by 2 to access even indexes
+            sum += arr[i];
+        }
+
+        return sum;
+    }
+}
