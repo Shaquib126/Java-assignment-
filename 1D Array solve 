@@ -2,15 +2,12 @@ public class SumEvenIndex {
 
     public static void main(String[] args) {
         // Example input array
-        int[] arr = {3, 5, 1, 6, 0, 7};
-
+        int[] arr = {3, 5, 1, 6, 0, 7}; pi
         // Call the function to calculate the sum of elements at even indexes
         int sum = sumOfEvenIndexes(arr);
-
         // Print the result
         System.out.println("Sum of elements at even indexes: " + sum);
     }
-
     // Function to calculate the sum of elements at even indexes
     public static int sumOfEvenIndexes(int[] arr) {
         int sum = 0;
